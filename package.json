@@ -1,0 +1,24 @@
+{
+  "name": "sporthub",
+  "version": "0.1.0",
+  "description": "hub for sport practitioners connecting to LinkedGeoData (OSM), DBpedia and Wikidata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackers4peace/sporthub.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/hackers4peace/sporthub/issues"
+  },
+  "homepage": "https://github.com/hackers4peace/sporthub#readme",
+  "devDependencies": {
+    "lodash": "^3.10.1",
+    "node-uuid": "^1.4.7",
+    "then-request": "^2.1.1"
+  }
+}
