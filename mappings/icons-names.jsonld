@@ -1,0 +1,102 @@
+{
+  "@context": {
+    "id": "@id",
+    "as": "http://www.w3.org/ns/activitystreams#",
+    "icon": { "@id": "as:icon", "@type": "@id" },
+    "nameMap": { "@id": "as:displayNameMap", "@container": "@language" }
+  },
+  "@graph": [
+    {
+      "id": "http://dbpedia.org/resource/Association_football",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Football_pictogram.svg",
+      "nameMap": {
+        "en": "Football",
+        "pl": "Piłka nożna"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Tennis",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/8/85/Tennis_pictogram.svg",
+      "nameMap": {
+        "en": "Tennis",
+        "pl": "Tenis"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Basketball",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Basketball_pictogram.svg",
+      "nameMap": {
+        "en": "Basketball",
+        "pl": "Koszykówka"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Table_tennis",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/8/85/Table_tennis_pictogram.svg",
+      "nameMap": {
+        "en": "Table tennis",
+        "pl": "Tenis stołowy"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Volleyball",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Volleyball_%28indoor%29_pictogram.svg",
+      "nameMap": {
+        "en": "Volleyball",
+        "pl": "Piłka siatkowa"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Swimming_(sport)",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Open_water_swimming_pictogram.svg",
+      "nameMap": {
+        "en": "Swimming",
+        "pl": "Pływanie"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Skateboarding",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/3/37/Skateboarding_pictogram.svg",
+      "nameMap": {
+        "en": "Skateboarding",
+        "pl": "Skateboarding"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Chess",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Chess_pictogram.svg",
+      "nameMap": {
+        "en": "Chess",
+        "pl": "Szachy"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Cycling",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/8/86/Cycling_%28road%29_pictogram.svg",
+      "nameMap": {
+        "en": "Cycling",
+        "pl": "Kolarstwo"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Roller_skating",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Pictograms-nps-land-in-line_skating_stripped.svg",
+      "nameMap": {
+        "en": "Roller skating",
+        "pl": "Wrotkarstwo"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Beach_volleyball",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/7/76/Volleyball_%28beach%29_pictogram.svg",
+      "nameMap": {
+        "en": "Beach volleyball",
+        "pl": "Siatkówka plażowa"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Boules",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Bocce_pictogram.svg",
+      "nameMap": {
+        "en": "Boules",
+        "pl": "Boules"
+      }
+    }, {
+      "id": "http://dbpedia.org/resource/Badminton",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/9/90/Badminton_pictogram.svg",
+      "nameMap": {
+        "en": "Badminton",
+        "pl": "Badminton/Kometka"
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "id": "@id",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "wd2osm": "https://www.wikidata.org/wiki/Property:P1282"
+  },
+  "@graph": [
+    {
+      "id": "http://dbpedia.org/resource/Association_football",
+      "owl:sameAs": "http://wikidata.org/entity/Q2736",
+      "wd2osm": "Tag:sport=soccer"
+    }, {
+      "id": "http://dbpedia.org/resource/Tennis",
+      "owl:sameAs": "http://wikidata.org/entity/Q847",
+      "wd2osm": "Tag:sport=tennis"
+    }, {
+      "id": "http://dbpedia.org/resource/Basketball",
+      "owl:sameAs": "https://www.wikidata.org/entity/Q5372",
+      "wd2osm": "Tag:sport=basketball"
+    }, {
+      "id": "http://dbpedia.org/resource/Table_tennis",
+      "owl:sameAs": "https://www.wikidata.org/entity/Q3930",
+      "wd2osm": "Tag:sport=table_tennis"
+    }, {
+      "id": "http://dbpedia.org/resource/Volleyball",
+      "owl:sameAs": "http://wikidata.org/entity/Q1734",
+      "wd2osm": "Tag:sport=volleyball"
+    }, {
+      "id": "http://dbpedia.org/resource/Swimming_(sport)",
+      "owl:sameAs": "https://www.wikidata.org/entity/Q31920",
+      "wd2osm": "Tag:sport=swimming"
+    }, {
+      "id": "http://dbpedia.org/resource/Skateboarding",
+      "owl:sameAs": "https://www.wikidata.org/entity/Q842284",
+      "wd2osm": "Tag:sport=skateboard"
+    }, {
+      "id": "http://dbpedia.org/resource/Chess",
+      "owl:sameAs": "http://wikidata.org/entity/Q718",
+      "wd2osm": "Tag:sport=chess"
+    }, {
+      "id": "http://dbpedia.org/resource/Cycling",
+      "owl:sameAs": "http://wikidata.org/entity/Q53121",
+      "wd2osm": "Tag:sport=cycling"
+    }, {
+      "id": "http://dbpedia.org/resource/Roller_skating",
+      "owl:sameAs": "http://wikidata.org/entity/Q1707432",
+      "wd2osm": "Tag:sport=roller_skating"
+    }, {
+      "id": "http://dbpedia.org/resource/Beach_volleyball",
+      "owl:sameAs": "http://wikidata.org/entity/Q4543",
+      "wd2osm": "Tag:sport=beachvolleyball"
+    }, {
+      "id": "http://dbpedia.org/resource/Boules",
+      "owl:sameAs": "http://wikidata.org/entity/Q895060",
+      "wd2osm": "Tag:sport=boules"
+    }, {
+      "id": "http://dbpedia.org/resource/Badminton",
+      "owl:sameAs": "http://wikidata.org/entity/Q7291",
+      "wd2osm": "Tag:sport=badminton"
+    }
+  ]
+}
