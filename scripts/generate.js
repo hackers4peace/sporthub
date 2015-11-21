@@ -125,7 +125,7 @@ dataset[uriSpace][1].classPartition.push(sportDataset)
 
 // add to dataset
 // TODO also add sportDataset
-dataset[sportList.id] = sportList
+dataset[sportList.id] = [ sportList ]
 
 
 var placeList = {
@@ -170,7 +170,7 @@ dataset[uriSpace][1].classPartition.push(placeDataset)
 
 // add to dataset
 // TODO also add placeDataset
-dataset[placeList.id] = placeList
+dataset[placeList.id] = [ placeList ]
 
 
 console.log(JSON.stringify(dataset))
