@@ -1,0 +1,7 @@
+{
+  "server": {
+    "port": 8000,
+    "host": "localhost",
+    "address": "127.0.0.1"
+  }
+}

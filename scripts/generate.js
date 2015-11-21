@@ -125,7 +125,7 @@ dataset[uriSpace][1].classPartition.push(sportDataset)
 
 // add to dataset
 // TODO also add sportDataset
-dataset[sportList.id] = [ sportList ]
+dataset[sportList.id] = [ sportDataset, sportList ]
 
 
 var placeList = {
@@ -170,10 +170,45 @@ dataset[uriSpace][1].classPartition.push(placeDataset)
 
 // add to dataset
 // TODO also add placeDataset
-dataset[placeList.id] = [ placeList ]
+dataset[placeList.id] = [ placeDataset, placeList ]
 
 
-console.log(JSON.stringify(dataset))
+var personList = {
+  id: genId(),
+  type: 'Collection',
+  totalItems: 0,
+  contains: []
+}
+
+var personDataset = {
+  id: personList.id + '#id',
+  type: 'Dataset',
+  entityClass: 'Person'
+}
+dataset[uriSpace][1].classPartition.push(personDataset)
+
+// add to dataset
+dataset[personList.id] = [ personDataset, personList ]
+
+
+var activityList = {
+  id: genId(),
+  type: 'Collection',
+  totalItems: 0,
+  contains: []
+}
+
+var activityDataset = {
+  id: activityList.id + '#id',
+  type: 'Dataset',
+  entityClass: 'Activity'
+}
+dataset[uriSpace][1].classPartition.push(activityDataset)
+
+// add to dataset
+dataset[activityList.id] = [ activityDataset, activityList ]
+
+fs.writeFileSync('tmp/graph.jsonld', JSON.stringify(dataset))
 
 // TODO still needed?
 //console.log(describesSports)
