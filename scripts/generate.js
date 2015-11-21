@@ -4,6 +4,9 @@ var fs = require('fs')
 var _ = require('lodash')
 var UUID = require('node-uuid')
 
+//hack
+var peopleData = JSON.parse(fs.readFileSync('data/people.jsonld', 'utf8'))['@graph'][0].contains
+
 var osmData = JSON.parse(fs.readFileSync('tmp/overpass-data.json', 'utf8'))
 var sportsMapping = JSON.parse(fs.readFileSync('mappings/dbo-wd-osm.jsonld', 'utf8'))
 var sportsData = JSON.parse(fs.readFileSync('mappings/icons-names.jsonld', 'utf8'))
@@ -176,9 +179,10 @@ dataset[placeList.id] = [ placeDataset, placeList ]
 var personList = {
   id: genId(),
   type: 'Collection',
-  totalItems: 0,
-  contains: []
+  totalItems: peopleData.length,
+  contains: peopleData
 }
+console.log(personList)
 
 var personDataset = {
   id: personList.id + '#id',

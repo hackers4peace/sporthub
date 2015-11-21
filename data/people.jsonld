@@ -1,0 +1,21 @@
+{
+  "@context": "https://w3id.org/plp/v1",
+  "@graph": [
+    {
+      "id": "http://sporthub.demo.hackers4peace.net/e77b4e12-0520-4571-b237-4fc3522428a5",
+      "type": [ "hydra:Collection" ],
+      "contains": [
+        {
+          "id": "https://idp.wwelves.org/ef093385-8906-4c78-9a69-9217c76013a8#id",
+          "name": "elf Pavlik"
+        }, {
+          "id": "https://idp.hackers4peace.net/2eb04d20-74a5-43f0-b67f-cc303b39bd01#id",
+          "name": "Samurex"
+        }, {
+          "id": "https://idp.hackers4peace.net/f7e06adf-f962-433b-8827-61d61dba1ab4#id",
+          "name": "Bartosz Bimbosz"
+        }
+      ]
+    }
+  ]
+}
